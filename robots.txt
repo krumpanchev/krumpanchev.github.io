@@ -32,4 +32,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://krumpanchev.github.io/sitemap.xml
+Sitemap: https://krumpanchev.com/sitemap.xml
