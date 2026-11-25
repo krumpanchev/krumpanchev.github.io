@@ -1,0 +1,41 @@
+# Krum Panchev
+
+> Technical Program & Delivery Manager based in Plovdiv, Bulgaria. Leads cloud-side delivery for a video telematics platform (high-volume device and enterprise APIs on AWS). Open to roles in Spain and remote across the EU.
+
+## Summary
+I lead cloud-side delivery for a video telematics platform and am accountable for the device-facing and enterprise customer APIs that about a million devices depend on. I work between engineering, DevOps, hardware and firmware, support and customers to get features shipped and keep them running at scale. My path from architecture to QA to delivery management means I care about both the plan and the quality of what lands.
+
+## Key facts
+- Name: Krum Panchev (Bulgarian: Крум Панчев)
+- Role: Technical Program & Delivery Manager; current title Manager, Cloud Software at Xirgo Technologies
+- Location: Plovdiv, Bulgaria — open to relocating to Spain or remote within the EU
+- Scale: ~1M devices in the field; ~700K unique devices connect to the API daily
+- Team: 7 direct reports plus a dedicated outsourced team of 5
+- Languages: Bulgarian (native), English (professional), Spanish (elementary)
+
+## Delivery highlights
+- **Device-facing API at scale:** I own delivery for the API that about 700,000 devices connect to every day. I work with DevOps and infrastructure on capacity and scaling on AWS, and act as the API's de facto product owner: priorities, customer-facing changes and how new features land.
+- **Enterprise fleet rollout:** I coordinated cloud-side delivery for a large US enterprise customer as its fleet grew to about 110,000 live devices, adding roughly 10,000 a month. I set the delivery approach, guided my team's testing and was the cloud counterpart for the customer.
+- **Marketplace partner integration:** I coordinated cloud-side delivery for a major telematics marketplace partner that sells our devices to its customers: integration plans, testing approach, and both teams aligned on scope and timing.
+- **Hardware, firmware and cloud in step:** I work with the hardware and firmware team on features, timelines and documentation, so a device capability and its cloud support ship together.
+- **Getting features through the organization:** I push features through internal departments, raise risks early and work closely with support so customer issues reach the right team quickly.
+
+## Experience
+- Oct 2024 – now: Manager, Cloud Software — Xirgo Technologies
+- 2022 – 2024: QA Team Lead — Sensata INSIGHTS
+- 2021 – 2022: Junior QA Engineer — SmartWitness
+- 2013 – 2019: Architect & co-founder · Smart Bench Competition, 1st prize — HexaComb Labs
+- Education: MA in Architecture
+
+## Skills
+Technical Program Management, Delivery Management, API Platforms, IoT, Video Telematics, AWS, Scaling & Reliability, Stakeholder Management, Agile · Jira · Confluence, QA & Test Strategy, Team Leadership
+
+## Looking for
+Technical program, delivery or technical product roles in cloud platforms, IoT or connectivity. Based in Plovdiv, Bulgaria — open to relocating to Spain or working remotely within the EU.
+
+## Links
+- Website: https://krumpanchev.github.io/
+- Website (Spanish): https://krumpanchev.github.io/es
+- LinkedIn: https://www.linkedin.com/in/krumpanchev
+- Linktree (contact details): https://linktr.ee/krum.panchev
+- One-page summary (PDF): https://krumpanchev.github.io/krum-panchev-what-ive-delivered.pdf
