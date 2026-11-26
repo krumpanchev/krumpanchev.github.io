@@ -40,7 +40,7 @@
   "name": "Krum Panchev – Technical Program & Delivery Manager | APIs cloud para IoT",
   "inLanguage": "es",
   "dateCreated": "2026-11-25T23:00:00+02:00",
-  "dateModified": "2026-11-26T09:00:51+02:00",
+  "dateModified": "2026-11-26T09:23:29+02:00",
   "mainEntity": {
     "@type": "Person",
     "@id": "https://krumpanchev.com/#person",
@@ -138,8 +138,17 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
  .hero{grid-template-columns:1fr;padding-top:40px;gap:20px}.photo{width:112px;height:112px}
  h1{font-size:36px}.role{font-size:19px}.stats{grid-template-columns:1fr 1fr}.cards,.two{grid-template-columns:1fr}
 }
+.ck{position:fixed;left:16px;right:16px;bottom:16px;z-index:50;max-width:560px;margin:0 auto;background:#0F1C2E;color:#fff;border-radius:14px;padding:16px 18px;box-shadow:0 10px 30px rgba(15,28,46,.3);display:none;align-items:center;gap:14px;flex-wrap:wrap;font-size:14px}
+.ck.show{display:flex}.ck p{margin:0;flex:1 1 260px}.ck button{font:inherit;font-weight:600;border-radius:999px;padding:8px 16px;cursor:pointer;border:1.5px solid #fff}
+.ck .y{background:#fff;color:#0F1C2E}.ck .n{background:transparent;color:#fff}
+.linkbtn{background:none;border:0;padding:0;font:inherit;color:var(--muted);text-decoration:underline;cursor:pointer}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+function kpLoadGA(){if(window.kpGA)return;window.kpGA=1;var s=document.createElement('script');s.async=1;s.src='https://www.googletagmanager.com/gtag/js?id=G-E22KKVGHYV';document.head.appendChild(s);gtag('js',new Date());gtag('config','G-E22KKVGHYV');}
+try{if(localStorage.getItem('kp_consent')==='granted')kpLoadGA();}catch(e){}
+</script>
 </head>
 <body>
 <header class="top"><div class="wrap">
@@ -195,7 +204,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 
 <section id="contact" aria-labelledby="contact-h">
 <h2 id="contact-h">Contacto</h2>
-<p>La forma más rápida de contactarme es un mensaje por LinkedIn. Mi email está en mi Linktree.</p>
+<p>La forma más rápida de contactarme es un mensaje por LinkedIn. También encontrarás mi email en mi perfil de LinkedIn y en mi Linktree.</p>
 <div class="btns">
 <a class="btn" href="https://www.linkedin.com/in/krumpanchev" rel="me noopener" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg> linkedin.com/in/krumpanchev</a>
 <a class="btn ghost" href="https://linktr.ee/krum.panchev" rel="me noopener" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 0 0-7.07-7.07L11.4 4.5M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 0 0 7.07 7.07l1.42-1.42"/></svg> linktr.ee/krum.panchev</a>
@@ -205,7 +214,17 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 </main>
 <footer><div class="wrap">
 <span>© 2026 Krum Panchev · Plovdiv, Bulgaria</span>
-<span><a href="https://www.linkedin.com/in/krumpanchev" rel="me noopener">LinkedIn</a> · <a href="https://linktr.ee/krum.panchev" rel="me noopener">Linktree</a> · <a href="/" hreflang="en">View in English</a></span>
+<span><a href="https://www.linkedin.com/in/krumpanchev" rel="me noopener">LinkedIn</a> · <a href="https://linktr.ee/krum.panchev" rel="me noopener">Linktree</a> · <a href="/" hreflang="en">View in English</a> · <button class="linkbtn" type="button" onclick="kpShowCk()">Configuración de cookies</button></span>
 </div></footer>
+<div class="ck" id="ck" role="dialog" aria-live="polite" aria-label="Configuración de cookies">
+<p>Este sitio usa cookies de Google Analytics para contar visitas, solo si lo aceptas.</p>
+<button class="n" type="button" onclick="kpCk('denied')">Rechazar</button>
+<button class="y" type="button" onclick="kpCk('granted')">Aceptar</button>
+</div>
+<script>
+function kpShowCk(){document.getElementById('ck').classList.add('show');}
+function kpCk(v){try{localStorage.setItem('kp_consent',v);}catch(e){}document.getElementById('ck').classList.remove('show');if(v==='granted')kpLoadGA();}
+(function(){var c=null;try{c=localStorage.getItem('kp_consent');}catch(e){}if(!c)kpShowCk();})();
+</script>
 </body>
 </html>
